@@ -25,12 +25,17 @@ Mahasiswa::Mahasiswa(int iNim) {
 
 Mahasiswa::Mahasiswa(string iNama) {
     nim = 0;
-    nim = iNim;
+    nim = iNama;
 }
 
 Mahasiswa::Mahasiswa(int iNim, string iNama) {
     nim = iNim;
     nama = iNama;
+}
+
+void Mahasiswa::cetak() {
+    cout << endl << "NIm = " << nim << endl;
+    cout << "Nama = " << nama << endl;
 }
 
 int main()
