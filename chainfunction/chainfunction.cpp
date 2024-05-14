@@ -12,9 +12,9 @@ public:
     string getJudul() {
         return this->judul;
     }
-};
+}bukunya;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << bukunya.setJudul("Matematika").getJudul();
 }
