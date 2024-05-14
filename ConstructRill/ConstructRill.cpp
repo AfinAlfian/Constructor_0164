@@ -21,7 +21,7 @@ Mahasiswa::Mahasiswa() {
     nama = " ";
 }
 
-//Mahasiswa::Mahasiswa(int iNim) {
+//Mahasiswa::Mahasiswa(int iNim) {          //pindah ke dalam class
 //    nim = iNim;
 //}
 
