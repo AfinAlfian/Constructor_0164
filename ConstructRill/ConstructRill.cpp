@@ -47,5 +47,10 @@ int main()
     Mahasiswa mhs3("Apin");
     Mahasiswa mhs4(20, "Pina");
 
-    
+    mhs1.cetak();
+    mhs2.cetak();
+    mhs3.cetak();
+    mhs4.cetak();
+    system("pause");
+    return 0;
 }
