@@ -2,7 +2,8 @@
 #include <string>
 
 class Mahasiswa {
-
+private:
+    static int nim
 };
 
 int main()
