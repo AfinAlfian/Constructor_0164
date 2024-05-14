@@ -7,6 +7,7 @@ private:
     int panjang;
 public:
     angka(int);
+    ~angka();
 };
 
 int main()
