@@ -18,7 +18,7 @@ public:
     Mahasiswa(string pnama) :nama(pnama) { setID; }
 };
 
-int Mahasiswa::nim = 164;
+int Mahasiswa::nim = 0;
 
 void Mahasiswa::setID() {
     id = ++nim;
@@ -42,4 +42,8 @@ int main()
     mhs2.printAll();
     mhs3.printAll();
     mhs4.printAll();
+
+    cout << "akses dri luar objek = " << Mahasiswa::getNim() << endl;
+    system("pause");
+    return 0;
 }
