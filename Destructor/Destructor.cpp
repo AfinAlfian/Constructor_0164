@@ -41,5 +41,5 @@ void angka::isiData() {
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    angka belajarcpp(3);
 }
