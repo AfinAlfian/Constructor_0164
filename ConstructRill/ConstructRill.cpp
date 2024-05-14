@@ -11,6 +11,7 @@ public:
     Mahasiswa(int);
     Mahasiswa(string);
     Mahasiswa(int iNim, string iNama);
+    void cetak();
 };
 
 int main()
