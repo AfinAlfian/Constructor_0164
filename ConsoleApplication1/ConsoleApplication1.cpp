@@ -3,7 +3,9 @@
 
 class Mahasiswa {
 private:
-    static int nim
+    static int nim;
+public:
+
 };
 
 int main()
