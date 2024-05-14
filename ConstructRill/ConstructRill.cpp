@@ -23,6 +23,11 @@ Mahasiswa::Mahasiswa(int iNim) {
     nim = iNim;
 }
 
+Mahasiswa::Mahasiswa(int iNim, string iNama) {
+    nim = 0;
+    nama = iNama;
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
