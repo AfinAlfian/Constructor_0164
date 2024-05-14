@@ -32,5 +32,8 @@ void Mahasiswa::printAll() {
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Mahasiswa mhs1("Lia Kurnia");
+    Mahasiswa mhs2("Asroni");
+    Mahasiswa mhs3("Andi Kurniawan");
+    Mahasiswa mhs4("Joko Purbo");
 }
