@@ -11,7 +11,7 @@ public:
     void setID();
     void printAll();
 
-    Mahasiswa(string nama) :nama(pnama) {
+    Mahasiswa(string pnama) :nama(pnama) {
         setID();
     }
 };
@@ -30,6 +30,10 @@ void Mahasiswa::printAll() {
 
 int main()
 {
-    
+    Mahasiswa mhs1("Lia Kurnia");
+    Mahasiswa mhs2("Asroni");
+    Mahasiswa mhs3("Andi Kurniawan");
+    Mahasiswa mhs4("Joko Purbo");
+
 }
 
